@@ -120,8 +120,9 @@ h1, .subtitle {
 .hamburger::after {
     width: 2em;
     height: 3px;
-    background: white;
+    background: var(--accent-color);
     transition: transform 0.3s;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
 }
 
 .hamburger::before,
